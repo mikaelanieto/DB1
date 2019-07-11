@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "data successfully saved", Toast.LENGTH_LONG).show();
         }
-        myDB.close();
+        //myDB.close();
     }
 }
